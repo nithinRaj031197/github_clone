@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Productivity from "./components/Productivity/Productivity";
 import StickyNavbar from "./components/StickyNavbar";
+import Collaboration from "./components/Collaboration/Collaboration";
 // import Navbar from './components/Navbar/Navbar';
 // import Hero from './components/Hero-section/Hero';
 // import StickyNav from './components/Navbar/StickyNav';
@@ -38,7 +39,7 @@ export default function Home() {
             <Productivity />
           </div>
           <div id="collaboration" className="home-campaign-productivity px-4 pt-8  overflow-hidden">
-            {/* <Collaboration/> */}
+            <Collaboration />
           </div>
           <div id="security" className="home-campaign-productivity px-4 pt-8 pb-16 overflow-hidden">
             {/* <Security/> */}
