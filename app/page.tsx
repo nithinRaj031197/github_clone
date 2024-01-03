@@ -5,14 +5,8 @@ import Productivity from "./components/Productivity/Productivity";
 import StickyNavbar from "./components/StickyNavbar";
 import Collaboration from "./components/Collaboration/Collaboration";
 import Security from "./components/Security/Security";
-// import Navbar from './components/Navbar/Navbar';
-// import Hero from './components/Hero-section/Hero';
-// import StickyNav from './components/Navbar/StickyNav';
-// import Productivity from './components/Productivity/Productivity';
-// import Collaboration from './components/Collaboration/Collaboration';
-// import Security from './components/Security/Security';
-// import Globe from './components/Footer/Globe';
-// import Footer from './components/Footer/Footer';
+import Globe from "./components/Footer/Globe";
+import Footer from "./components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -45,7 +39,7 @@ export default function Home() {
           <div id="security" className="home-campaign-productivity px-4 pt-8 pb-16 overflow-hidden">
             <Security />
           </div>
-          {/* <Globe/> */}
+          <Globe />
           <div className="max-w-[1280px] mx-auto relative z-[2]  px-5">
             <ul className="lg:w-9/12 text-[14px] pt-16 text-[#7d8590] space-y-1">
               <li>
@@ -60,7 +54,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
