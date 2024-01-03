@@ -2,6 +2,7 @@ import Image from "next/image";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Productivity from "./components/Productivity/Productivity";
+import StickyNavbar from "./components/StickyNavbar";
 // import Navbar from './components/Navbar/Navbar';
 // import Hero from './components/Hero-section/Hero';
 // import StickyNav from './components/Navbar/StickyNav';
@@ -32,7 +33,7 @@ export default function Home() {
           <div className="hero-section px-3 ">
             <Hero />
           </div>
-          {/* <StickyNav/> */}
+          <StickyNavbar />
           <div id="productivity" className="home-campaign-productivity px-4 pt-8 overflow-hidden">
             <Productivity />
           </div>
